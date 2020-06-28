@@ -1,0 +1,83 @@
+body {
+    font: 16px/25px times, serif;
+    background-color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header .judul {
+    font-size: 20px;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -24px;
+    font-size: 19px;
+    float: right;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("/My Documents/Kuliah/Semester 2/Pemrograman Web 1/Visual Studio Code/HTML/UAS/hero2.png");
+    background-size: cover;
+    background-position: 0 -180px;
+    margin-top: 35px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -13px;
+}
+
+.content .penulis a {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer .copy a {
+    text-decoration: none;
+}
